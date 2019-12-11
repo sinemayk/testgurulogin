@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM “http://testng.org/testng-1.0.dtd">
+        <module type="JAVA_MODULE" version="4" />
+        <suite name="Suite">
+        <test name="Demo">
+        <groups>
+        <run>
+        <include name="strong_ties" />
+        <exclude name="bonding"      />
+        </run>
+        </groups>
+        <classes>
+        <class name="verifyLoginSection" />
+        </classes>
+        </test>
+        </suite>
